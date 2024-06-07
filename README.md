@@ -1,16 +1,20 @@
-## Hi there 👋
+package.Augusto2599.com.github;
 
-<!--
-**Augusto2599/Augusto2599** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+public class Augusto { 
+	//  Definition of Variables.
+    
+	private String[] technologies;	
+	private String[] frameworks 
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+	public Augusto(String[] technologies, String[] frameworks, String fullName, Integer age, String pronoun, String status, String mainOccupation) {
+		this.fullName = "José Augusto";
+		this.age = 25;
+		this.pronoun = "He/His";
+		this.status = "Writing Code";
+		this.mainOccupation = "Bakc-End Developer";
+		this.technologies = new String[] {"HTML", "CSS", "JavaScript", "Java", "SQL"};
+		this.frameworks = new String[] {"ReactNative", "SpringBoot", "jUnit"} ;
+	}
+	
+	// Getter and Setter.
+}
