@@ -17,8 +17,8 @@ public class Augusto {
 		this.pronoun = "He/His";
 		this.status = "Writing Code";
 		this.mainOccupation = "Bakc-End Developer";
-		this.technologies = new String[] {"HTML", "CSS", "JavaScript", "Java", "SQL"};
-		this.frameworks = new String[] {"ReactNative", "SpringBoot", "jUnit"} ;
+		this.technologies = new String[] {"HTML", "CSS", "Java", "SQL"};
+		this.frameworks = new String[] {"SpringBoot", "jUnit"} ;
 	}
 
 	// Getter and Setter.
