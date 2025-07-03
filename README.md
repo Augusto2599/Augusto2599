@@ -17,7 +17,7 @@ public class Augusto {
 		this.pronoun = "He/His";
 		this.status = "Writing Code";
 		this.mainOccupation = "Bakc-End Developer";
-		this.technologies = new String[] {"HTML", "CSS", "Java", "SQL"};
+		this.technologies = new String[] {"C++", "Java", "Kotlin", "SQL"};
 		this.frameworks = new String[] {"SpringBoot", "jUnit"} ;
 	}
 
