@@ -1,36 +1,42 @@
-<h2 align="center">Hello, nice to meet you! 👋🏻</h2>
+### Hi there, I'm José Augusto! 👋
 
-###
+<br />
 
-<h5 align="left">A little about me 🔍</h5>
-<p>
-package.Augusto2599.com.github;
+<div align="left">
+  <img align="right" height="180" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding Animation" />
 
-public class Augusto { 
+  ### 👨‍💻 A little about me
+  
+```java
+package com.github.augusto2599;
 
-	//  Definition of Variables.
+import java.util.Arrays;
+import java.util.List;
 
-	public Augusto(String[] technologies, String[] frameworks, String fullName, Integer age, String pronoun, 
- 			String status, String mainOccupation) {
-		this.fullName = "José Augusto";
-		this.age = 25;
-		this.pronoun = "He/His";
-		this.status = "Writing Code";
-		this.mainOccupation = "Bakc-End Developer";
-		this.technologies = new String[] {"C++", "Java", "Kotlin", "SQL"};
-		this.frameworks = new String[] {"SpringBoot", "jUnit"} ;
-	}
+public class Augusto {
 
-	// Getter and Setter.
+    private String fullName;
+    private String mainOccupation;
+    private List<String> technologies;
+    private List<String> frameworks;
+
+    public Augusto() {
+        this.fullName = "José Augusto";
+        this.age = 25;
+        this.pronoun = "He/His";
+        this.status = "Writing Code ☕";
+        this.mainOccupation = "Back-End Developer";
+        
+        this.technologies = Arrays.asList(
+            "Java", "Kotlin", "C++", "SQL"
+        );
+        
+        this.frameworks = Arrays.asList(
+            "Spring Boot", "JUnit"
+        );
+    }
+    
+    public void sayHello() {
+        System.out.println("Welcome to my GitHub profile!");
+    }
 }
-</p>
-
-###
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Augusto2599&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=false&count_private=true&disable_animations=false&theme=monokai&locale=en&hide_border=true&order=1" height="120" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Augusto2599&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=monokai&hide_border=true&order=2" height="120" alt="languages graph"  />
-</div>
-
-###
-
