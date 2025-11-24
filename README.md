@@ -1,24 +1,19 @@
-### Hi there, I'm José Augusto! 👋
+<div align="center">
+  <img height="160" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+  <h1>Hi there, I'm José Augusto! <img src="https://media.giphy.com/media/hvRJCLFzcuMiPwV4QT/giphy.gif" width="30px"></h1>
+</div>
 
-<br />
+### 👨‍💻 A little about me
 
-<div align="left">
-  <img align="right" height="180" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding Animation" />
-
-  ### 👨‍💻 A little about me
-  
 ```java
 package com.github.augusto2599;
 
-import java.util.Arrays;
-import java.util.List;
-
-public class Augusto {
+public class Augusto { 
 
     private String fullName;
     private String mainOccupation;
-    private List<String> technologies;
-    private List<String> frameworks;
+    private String[] technologies;
+    private String[] frameworks;
 
     public Augusto() {
         this.fullName = "José Augusto";
@@ -27,16 +22,11 @@ public class Augusto {
         this.status = "Writing Code ☕";
         this.mainOccupation = "Back-End Developer";
         
-        this.technologies = Arrays.asList(
-            "Java", "Kotlin", "C++", "SQL"
-        );
-        
-        this.frameworks = Arrays.asList(
-            "Spring Boot", "JUnit"
-        );
+        this.technologies = new String[] { "C++", "Java", "Kotlin", "SQL" };
+        this.frameworks = new String[] { "SpringBoot", "jUnit" };
     }
     
     public void sayHello() {
-        System.out.println("Welcome to my GitHub profile!");
+        System.out.println("Welcome to my profile!");
     }
 }
